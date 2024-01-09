@@ -1,0 +1,50 @@
+.home-container {
+  nav {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: end;
+    padding: 20px 50px;
+    gap: 20px;
+    p {
+      font-size: 30px;
+    }
+    .logout-btn {
+      background-color: red;
+      color: white;
+      height: fit-content;
+      border: none;
+      outline: none;
+      padding: 10px;
+      border-radius: 10px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .add-post-btn {
+      background-color: #1877f2;
+      color: white;
+      height: fit-content;
+      border: none;
+      outline: none;
+      padding: 10px;
+      border-radius: 10px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+
+  .home-main-conatainer {
+
+    display: flex;
+    gap: 30px;
+    .post-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 30px;
+      flex-wrap: wrap;
+      width: 100%;
+      padding: 20px 50px;
+    }
+  }
+}
